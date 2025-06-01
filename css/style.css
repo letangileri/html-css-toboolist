@@ -38,3 +38,25 @@ h1 {
     margin: auto;
     background-color: #ffffff;
 }
+/*buttons*/
+#buttons{
+    padding: 2rem 4rem;
+}
+.primary{
+    background-color: #47acf1;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: 1px solid #47acf1;
+    border-radius: 1.2rem;
+}
+.secondary{
+    background-color: #ffffff;
+    color: #c9ced2;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border: 1px solid #c9ced2;
+    border-radius: 1.2rem;
+}
+
+/* /buttons*/
