@@ -10,15 +10,15 @@ body{
 
 #logo {
     vertical-align: middle;
-    height: 8rem;
-    width: 8rem;
+    height: 4rem;
+    width: 4rem;
     margin: 2rem 0 2rem 2rem;
 }
 
 h1 {
     display: inline;
     vertical-align: middle;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 /* /nav */
@@ -28,11 +28,11 @@ h1 {
     background-color: #f6f8f9; 
     height: 100%;
     width: 100%;
-    padding-top: 8rem;
+    padding-top: 2rem;
     /* margin: auto; */
 }
-#tasks{
-
+/*Questa classe posiziona le varie section (centrali rispetto al container)*/
+.tasks{
     height: 70%;
     width: 70%;
     margin: auto;
@@ -41,22 +41,69 @@ h1 {
 /*buttons*/
 #buttons{
     padding: 2rem 4rem;
+    border-radius: 1.2rem;
 }
 .primary{
     background-color: #47acf1;
     color: #ffffff;
-    padding: 1rem 2rem;
-    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     border: 1px solid #47acf1;
-    border-radius: 1.2rem;
+    border-radius: 0.5rem;
 }
 .secondary{
     background-color: #ffffff;
     color: #c9ced2;
-    padding: 1rem 2rem;
-    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     border: 1px solid #c9ced2;
-    border-radius: 1.2rem;
+    border-radius: 0.5rem;
 }
 
 /* /buttons*/
+
+/* All tasks*/
+#all_tasks{
+    border-radius: 1.2rem;
+    margin-top: 2rem;
+    padding: 2rem 4rem;
+
+}
+.h2-inline{
+    display: inline;
+    padding: 0 0 0 0.5rem;
+}
+.v_align_middle{
+    vertical-align: middle;
+}
+.v_align_bottom{
+    vertical-align: bottom;
+}
+
+
+.badge{
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+    border: 1px solid #47acf1;
+    border-radius: 1rem;
+    background-color: #47acf1;
+    color: #ffffff;
+}
+
+.p_text{
+    display: inline;
+}
+
+.check{
+    color: #6ac3ad;
+    width: 30px;
+    height: 30px;
+}
+
+.container_check{
+    margin-top: 1rem;
+}
+.title-task{
+    margin-top: 2em;
+}
+/* /All tasks*/
