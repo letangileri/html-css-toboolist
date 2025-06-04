@@ -24,7 +24,7 @@ h1 {
 /* /nav */
 
 /* main */
-.container{
+.sfondo{
     background-color: #f6f8f9; 
     height: 100%;
     width: 100%;
@@ -32,7 +32,7 @@ h1 {
     /* margin: auto; */
 }
 /*Questa classe posiziona le varie section (centrali rispetto al container)*/
-.tasks{
+.container{
     height: 70%;
     width: 70%;
     margin: auto;
