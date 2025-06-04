@@ -31,7 +31,7 @@ h1 {
     padding-top: 2rem;
     /* margin: auto; */
 }
-/*Questa classe posiziona le varie section (centrali rispetto al container)*/
+/*Questa classe posiziona le varie section (centrali rispetto al main)*/
 .container{
     height: 70%;
     width: 70%;
@@ -71,7 +71,6 @@ h1 {
 }
 .h2-inline{
     display: inline;
-    padding: 0 0 0 0.5rem;
 }
 .v_align_middle{
     vertical-align: middle;
@@ -90,9 +89,6 @@ h1 {
     color: #ffffff;
 }
 
-.p_text{
-    display: inline;
-}
 
 .check{
     color: #6ac3ad;
